@@ -1,19 +1,11 @@
 
-C:\Users\Rishiraj Jhawar\OneDrive\Desktop\github-final-project>git checkout -b bug-fix-typo
-Switched to a new branch 'bug-fix-typo'
-
-C:\Users\Rishiraj Jhawar\OneDrive\Desktop\github-final-project>git add .
-
-C:\Users\Rishiraj Jhawar\OneDrive\Desktop\github-final-project>git commit -m "Fixed typo"
-[bug-fix-typo 05f64a0] Fixed typo
- 1 file changed, 2 insertions(+), 1 deletion(-)
-
 C:\Users\Rishiraj Jhawar\OneDrive\Desktop\github-final-project>git checkout main
 Switched to branch 'main'
-Your branch is up to date with 'origin/main'.
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
 
 C:\Users\Rishiraj Jhawar\OneDrive\Desktop\github-final-project>git merge bug-fix-typo
-Updating 0b16d08..05f64a0
+Updating 05f64a0..dbeac8d
 Fast-forward
  README.md | 3 ++-
  1 file changed, 2 insertions(+), 1 deletion(-)
